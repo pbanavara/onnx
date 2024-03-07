@@ -7,6 +7,7 @@
 
 import SwiftUI
 import CoreData
+import UIKit
 
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
@@ -17,8 +18,16 @@ struct ContentView: View {
     private var items: FetchedResults<Item>
 
     var body: some View {
-        let outputData = convertImageToTensor()
-        Image(.IMG_0688)
+        let outputRect = plotPose()
+        
+        //Image(uiImage: UIImage(data: outputRect)!).resizable()
+        
+        Image(.IMG_0688).resizable().overlay(GeometryReader {
+            (geometry: GeometryProxy) in
+            Rectangle().path(in:outputRect).stroke(lineWidth: 4.0)
+        })
+         
+       
     }
 
     private func addItem() {

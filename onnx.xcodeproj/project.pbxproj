@@ -13,9 +13,6 @@
 		0B2E8BF52B9723E90083556E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E8BF42B9723E90083556E /* Utils.swift */; };
 		0B2E8BF62B9723E90083556E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E8BF42B9723E90083556E /* Utils.swift */; };
 		0B2E8BF72B9723E90083556E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E8BF42B9723E90083556E /* Utils.swift */; };
-		0B2E8BF92B97257C0083556E /* yolov8n-pose.onnx in Resources */ = {isa = PBXBuildFile; fileRef = 0B2E8BF82B97257C0083556E /* yolov8n-pose.onnx */; };
-		0B2E8BFA2B97257C0083556E /* yolov8n-pose.onnx in Resources */ = {isa = PBXBuildFile; fileRef = 0B2E8BF82B97257C0083556E /* yolov8n-pose.onnx */; };
-		0B2E8BFB2B97257C0083556E /* yolov8n-pose.onnx in Resources */ = {isa = PBXBuildFile; fileRef = 0B2E8BF82B97257C0083556E /* yolov8n-pose.onnx */; };
 		0B30C31E2B96E2F000D2E91A /* onnxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B30C31D2B96E2F000D2E91A /* onnxApp.swift */; };
 		0B30C3202B96E2F000D2E91A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B30C31F2B96E2F000D2E91A /* ContentView.swift */; };
 		0B30C3222B96E2F100D2E91A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B30C3212B96E2F100D2E91A /* Assets.xcassets */; };
@@ -25,6 +22,12 @@
 		0B30C3342B96E2F100D2E91A /* onnxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B30C3332B96E2F100D2E91A /* onnxTests.swift */; };
 		0B30C33E2B96E2F100D2E91A /* onnxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B30C33D2B96E2F100D2E91A /* onnxUITests.swift */; };
 		0B30C3402B96E2F100D2E91A /* onnxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B30C33F2B96E2F100D2E91A /* onnxUITestsLaunchTests.swift */; };
+		0B6BB9922B9746C900BB1DE6 /* yolov8n-pose-pre.onnx in Resources */ = {isa = PBXBuildFile; fileRef = 0B6BB9912B9746C900BB1DE6 /* yolov8n-pose-pre.onnx */; };
+		0B6BB9932B9746C900BB1DE6 /* yolov8n-pose-pre.onnx in Resources */ = {isa = PBXBuildFile; fileRef = 0B6BB9912B9746C900BB1DE6 /* yolov8n-pose-pre.onnx */; };
+		0B6BB9942B9746C900BB1DE6 /* yolov8n-pose-pre.onnx in Resources */ = {isa = PBXBuildFile; fileRef = 0B6BB9912B9746C900BB1DE6 /* yolov8n-pose-pre.onnx */; };
+		0B853E8B2B9872AA00F7CB65 /* yolo8n-pose-image.onnx in Resources */ = {isa = PBXBuildFile; fileRef = 0B853E8A2B9872A900F7CB65 /* yolo8n-pose-image.onnx */; };
+		0B853E8C2B9872AA00F7CB65 /* yolo8n-pose-image.onnx in Resources */ = {isa = PBXBuildFile; fileRef = 0B853E8A2B9872A900F7CB65 /* yolo8n-pose-image.onnx */; };
+		0B853E8D2B9872AA00F7CB65 /* yolo8n-pose-image.onnx in Resources */ = {isa = PBXBuildFile; fileRef = 0B853E8A2B9872A900F7CB65 /* yolo8n-pose-image.onnx */; };
 		9AC44C1ADB9ECCBA825BFF0D /* Pods_onnxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F27EE75D8F4D6583EB0894 /* Pods_onnxTests.framework */; };
 		BEF8A0EBA67E72A5D50B1518 /* Pods_onnx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06EC22E931A874BC6731A0C /* Pods_onnx.framework */; };
 		F7984C40D7FDAA224BF9F411 /* Pods_onnx_onnxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50421A4483266C188801B814 /* Pods_onnx_onnxUITests.framework */; };
@@ -50,7 +53,6 @@
 /* Begin PBXFileReference section */
 		0B2E8BF02B9723C20083556E /* IMG_0688.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0688.jpeg; sourceTree = "<group>"; };
 		0B2E8BF42B9723E90083556E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		0B2E8BF82B97257C0083556E /* yolov8n-pose.onnx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "yolov8n-pose.onnx"; sourceTree = "<group>"; };
 		0B30C31A2B96E2F000D2E91A /* onnx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onnx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B30C31D2B96E2F000D2E91A /* onnxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onnxApp.swift; sourceTree = "<group>"; };
 		0B30C31F2B96E2F000D2E91A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +65,9 @@
 		0B30C3392B96E2F100D2E91A /* onnxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onnxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B30C33D2B96E2F100D2E91A /* onnxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onnxUITests.swift; sourceTree = "<group>"; };
 		0B30C33F2B96E2F100D2E91A /* onnxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onnxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0B6BB9912B9746C900BB1DE6 /* yolov8n-pose-pre.onnx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "yolov8n-pose-pre.onnx"; sourceTree = "<group>"; };
+		0B853E8A2B9872A900F7CB65 /* yolo8n-pose-image.onnx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "yolo8n-pose-image.onnx"; sourceTree = SOURCE_ROOT; };
+		0B9F05CF2B980BC800D031B3 /* onnx-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "onnx-Bridging-Header.h"; sourceTree = "<group>"; };
 		2169F82CEAE3C2BF394A221A /* Pods-onnx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onnx.release.xcconfig"; path = "Target Support Files/Pods-onnx/Pods-onnx.release.xcconfig"; sourceTree = "<group>"; };
 		44F27EE75D8F4D6583EB0894 /* Pods_onnxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_onnxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50421A4483266C188801B814 /* Pods_onnx_onnxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_onnx_onnxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,7 +120,7 @@
 		0B30C3112B96E2F000D2E91A = {
 			isa = PBXGroup;
 			children = (
-				0B2E8BF82B97257C0083556E /* yolov8n-pose.onnx */,
+				0B9F05CF2B980BC800D031B3 /* onnx-Bridging-Header.h */,
 				0B30C31C2B96E2F000D2E91A /* onnx */,
 				0B30C3322B96E2F100D2E91A /* onnxTests */,
 				0B30C33C2B96E2F100D2E91A /* onnxUITests */,
@@ -138,6 +143,8 @@
 		0B30C31C2B96E2F000D2E91A /* onnx */ = {
 			isa = PBXGroup;
 			children = (
+				0B6BB9912B9746C900BB1DE6 /* yolov8n-pose-pre.onnx */,
+				0B853E8A2B9872A900F7CB65 /* yolo8n-pose-image.onnx */,
 				0B30C31D2B96E2F000D2E91A /* onnxApp.swift */,
 				0B30C31F2B96E2F000D2E91A /* ContentView.swift */,
 				0B30C3212B96E2F100D2E91A /* Assets.xcassets */,
@@ -296,7 +303,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B2E8BF12B9723C20083556E /* IMG_0688.jpeg in Resources */,
-				0B2E8BF92B97257C0083556E /* yolov8n-pose.onnx in Resources */,
+				0B853E8B2B9872AA00F7CB65 /* yolo8n-pose-image.onnx in Resources */,
+				0B6BB9922B9746C900BB1DE6 /* yolov8n-pose-pre.onnx in Resources */,
 				0B30C3252B96E2F100D2E91A /* Preview Assets.xcassets in Resources */,
 				0B30C3222B96E2F100D2E91A /* Assets.xcassets in Resources */,
 			);
@@ -307,7 +315,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B2E8BF22B9723C20083556E /* IMG_0688.jpeg in Resources */,
-				0B2E8BFA2B97257C0083556E /* yolov8n-pose.onnx in Resources */,
+				0B6BB9932B9746C900BB1DE6 /* yolov8n-pose-pre.onnx in Resources */,
+				0B853E8C2B9872AA00F7CB65 /* yolo8n-pose-image.onnx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +325,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B2E8BF32B9723C20083556E /* IMG_0688.jpeg in Resources */,
-				0B2E8BFB2B97257C0083556E /* yolov8n-pose.onnx in Resources */,
+				0B6BB9942B9746C900BB1DE6 /* yolov8n-pose-pre.onnx in Resources */,
+				0B853E8D2B9872AA00F7CB65 /* yolo8n-pose-image.onnx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +592,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.callindra.onnx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				"SWIFT_OBJC_BRIDGING_HEADER[sdk=iphonesimulator*]" = "onnx-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -611,6 +623,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.callindra.onnx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "onnx-Bridging-Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "onnx-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
